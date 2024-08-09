@@ -8,7 +8,7 @@ client = OpenAI(
     api_key=''
 )
 
-text2mod=input(">")
+text2mod=input("{Style.RESET_ALL}>")
 moderation = client.moderations.create(input=text2mod)
 
 def create_bar(score):
