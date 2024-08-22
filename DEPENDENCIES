@@ -3,7 +3,4 @@ open a system terminal, type in:
    [ pip install <name> ] 
 
 # DEPENDENCIES:
-substitute "<name>" with:
-- openai 
-- colorama
-- requests
+None.
